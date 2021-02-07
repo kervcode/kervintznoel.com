@@ -1,0 +1,14 @@
+.info {
+  display: flex;
+  width: 80%;
+  margin: 200px auto;
+}
+
+.info_text {
+  padding: 0 40px;
+  text-align: left;
+}
+
+.profile_picture {
+  max-width: 400px;
+}

@@ -1,0 +1,15 @@
+.menu {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.list li {
+  padding-left: 30px;
+}

@@ -1,7 +1,22 @@
+.hero {
+  padding-top: 150px;
+}
+
+.my_title {
+  margin-bottom: 200px;
+}
+
+
 .info {
+  background: rgba(251, 252, 250, 0.020);
+  border-radius: 5px;
   display: flex;
   width: 80%;
-  margin: 200px auto;
+  margin: 0 auto;
+  padding: 60px;
+  color: white;
+
+  line-height: 1.7;
 }
 
 .info_text {
@@ -9,6 +24,32 @@
   text-align: left;
 }
 
+.info_text_heading {
+  font-size: 48px;
+}
+
+.location {
+  font-size: 32px;
+}
+
+.icons {
+  font-size: 24px;
+}
+
+.pitch {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.my_name {
+  font-size: 56px;
+}
+
 .profile_picture {
   max-width: 400px;
+}
+
+.button {
+  position: right;
+  font-size: 18px;
 }

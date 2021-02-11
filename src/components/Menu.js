@@ -3,7 +3,7 @@ import './menu.styles.css'
 
 const Menu = () => (
   <div className='menu'> 
-    <h1>Kervintz Noel </h1>
+    <p>Kervintz Noel </p>
     
     <ul className="list">
       <li>Home</li>

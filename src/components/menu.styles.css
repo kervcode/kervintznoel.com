@@ -2,8 +2,13 @@
   /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  margin: 10px 30px;
+  margin: 16px 32px 150px 32px;
+  font-size: 16px;
+}
 
+.logo {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .list {
@@ -12,5 +17,5 @@
 }
 
 .list li {
-  padding-left: 30px;
+  padding-left: 32px;
 }

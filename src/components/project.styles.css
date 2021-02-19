@@ -4,11 +4,16 @@
     flex-direction: row;
     background: rgba(251, 252, 250, 0.020);
     border-radius: 5px;
-    /* padding: 54px; */
+    padding: 32px;
     color: white;
 }
 
 .project {
     display: flex;
     justify-content: space-between;
+}
+
+.project_description {
+    text-align: left;
+    
 }

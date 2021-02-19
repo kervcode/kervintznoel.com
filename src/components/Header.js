@@ -6,7 +6,6 @@ import './header.style.css'
 
 const Header = () => (
   <div className='header'> 
-    <Menu />
     <Hero />
   </div>
 )

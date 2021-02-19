@@ -13,7 +13,12 @@
     justify-content: space-between;
 }
 
+.projects h2 {
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
 .project_description {
     text-align: left;
-    
+    padding-right: 32px;
 }

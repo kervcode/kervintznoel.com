@@ -16,6 +16,8 @@
   display: flex;
 }
 
-.list li {
+.list a {
+  color: #fff;
+  text-decoration: none;
   padding-left: 32px;
 }

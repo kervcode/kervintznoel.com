@@ -1,19 +1,19 @@
-.hero {
-  /* padding-top: 150px; */
-}
+/* .hero {
+  padding: 0 0 150px 0;
+} */
 
 .my_title {
-  /* margin-bottom: 200px; */
+  margin-bottom: 150px;
 }
 
 
-.info {
+.hero {
   background: rgba(251, 252, 250, 0.020);
   border-radius: 5px;
   display: flex;
   width: 80%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 64px;
   color: white;
 
   line-height: 1.7;
@@ -47,8 +47,12 @@
   font-size: 56px;
 }
 
+/* .image {
+  width: 450px;
+} */
+
 .profile_picture {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .button {

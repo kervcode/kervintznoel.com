@@ -4,19 +4,22 @@ html {
 
 body {
   background: #121212;
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: whitesmoke;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .App {
   text-align: center;
 }
 
-
 .footer {
   margin-top: 150px;
 }
-
-

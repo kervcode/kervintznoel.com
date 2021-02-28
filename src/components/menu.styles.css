@@ -21,3 +21,16 @@
   text-decoration: none;
   padding-left: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .menu {
+  }
+}

@@ -13,6 +13,12 @@ const Menu = () => (
       <Link to="/Contact">Contact</Link>
     </div>
     
+    <div className="burger">
+      <div className="slides"></div>
+      <div className="slides"></div>
+      <div className="slides"></div>
+    </div>
+    
   </div>
 )
 

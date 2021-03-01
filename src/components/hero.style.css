@@ -14,21 +14,22 @@
   margin: 0 auto;
   padding: 64px;
   color: white;
-
   line-height: 1.7;
 }
 
 .info_text {
   padding: 0 40px;
   text-align: left;
+  font-size: 24px;
 }
 
 .info_text_heading {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .location {
-  font-size: 32px;
+  font-size: 24pxpx;
+  padding-bottom: 16px;
 }
 
 .icons {
@@ -43,7 +44,7 @@
 }
 
 .my_name {
-  font-size: 56px;
+  font-size: 48px;
 }
 
 .image {
@@ -54,6 +55,7 @@
 }
 
 .profile_picture {
+  align-self: start;
   max-width: 100%;
   border-radius: 16px;
 }
@@ -74,27 +76,26 @@
   }
 
   .hero {
-    text-align: center;
+    /* text-align: justify; */
     display: flex;
     flex-direction: column;
     padding: 32px;
   }
 
   .my_name {
-    font-size: 40px;
-    text-align: center;
+    font-size: 32px;
+    /* text-align: center; */
   }
 
   .info_text {
     font-size: 24px;
-    text-align: center;
     padding: 16px;
     /* margin: 0 16px; */
   }
 
-  .hero_text_heading {
+  .info_text_heading {
     font-size: 24px;
-    padding: 16px;
+    /* padding: 16px; */
   }
 
   .location {
@@ -103,6 +104,12 @@
   }
 
   .image {
+    display: none;
+    width: 80vw;
     margin: 40px 0;
+  }
+
+  .image img {
+    width: 100%;
   }
 }

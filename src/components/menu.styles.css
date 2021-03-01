@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin: 16px 32px 150px 32px;
   font-size: 16px;
+  position: relative;
 }
 
 .logo {
@@ -14,6 +15,8 @@
 .list {
   list-style-type: none;
   display: flex;
+  position: absolute;
+  right: 0px;
 }
 
 .list a {
@@ -22,9 +25,17 @@
   padding-left: 32px;
 }
 
-@media only screen and (max-width: 600px) {
+.burger {
+  display: none;
+}
+
+.slides {
+  display: none;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
   body {
-    max-width: 600px;
+    max-width: 100vw;
   }
 
   .logo {
@@ -32,5 +43,29 @@
   }
 
   .menu {
+    margin: 16px 32px 100px 32px;
+  }
+
+  .list {
+    visibility: hidden;
+  }
+
+  .burger {
+    display: block;
+    width: 30px;
+    height: auto;
+  }
+
+  .slides {
+    background-color: #fff;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .footer {
+    margin-top: 50px;
   }
 }

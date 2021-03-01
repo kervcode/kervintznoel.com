@@ -10,8 +10,8 @@ const Hero = () => (
        </div>
        <div className="info_text">
           <p>Hello there, I'm</p>
-          <h1 className="my_name">Kervintz Noel</h1>
-          <h2 className="info_text_heading">Full Stack Developer.</h2>
+          <h1 className="my_name">Kervintz Noel.</h1>
+          <h2 className="info_text_heading"> Full Stack Developer.</h2>
           <h3 className="location">Based in Boston, MA.</h3>
           <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p>
           <p className="pitch">

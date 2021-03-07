@@ -1,6 +1,6 @@
 [
       {
-        "id": "4",
+        "id": "0",
         "project_name": "React Gallery app",
         "description": "Public API Requests",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -14,7 +14,7 @@
         ]
       },
       {
-        "id": "4",
+        "id": "1",
         "project_name": "Public API Requests",
         "description": "This was the fifth project that I worked on the the TreeHouse Techdegree. I was requested to use the Ramdom User Generator API to grab information for 12 random users, (employees in the instances of this project) and use the gathered data to build a prototype for a fictitious company called Awesome Startup.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "id": "0",
+        "id": "3",
         "project_name": "Random Quote Generator",
         "description": "In this project, I used vanilla JavaScript to create an app that displays random quote each time a user interact with the Show Another Quote Button. The background color of the page also randomly change for each click on the button. Below are some screenshot of different quotes showing the functionality of the app.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "id": "1",
+        "id": "4",
         "project_name": "List Pagination",
         "description": "List Pagination",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "id": "3",
+        "id": "5",
         "project_name": "Phrase Hunter",
         "description": "Phrase Hunter",
         "technologies": ["HTML", "CSS", "JavaScript"],

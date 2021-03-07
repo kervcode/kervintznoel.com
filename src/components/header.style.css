@@ -1,3 +1,11 @@
 .header {
   color: white;
 }
+
+.logo {
+  color: #000;
+  background-color: #fff;
+  width: 45px;
+  border-radius: 4px;
+  font-weight: bold;
+}

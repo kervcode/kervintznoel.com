@@ -21,7 +21,7 @@ handleSubmit(e) {
       message_html: message,
      }
      emailjs.send(
-      'gmail',
+      'outlook',
       'template_XXXXXXXX',
        templateParams,
       'user_XXXXXXXXXXXXXXXXXXXX'
@@ -41,10 +41,11 @@ handleChange = (param, e) => {
   }
 render() {
     return (
-      <>
-          <h1 className="contact-heading">Get in Touch</h1>
+        <>
+          <div className="contact-form">
+            <h1 className="contact-heading">Get in Touch</h1>
           <Form onSubmit={this.handleSubmit.bind(this)}>
-            <FormGroup controlId="formBasicEmail">
+            <FormGroup control_id="formBasicEmail">
               <Label className="text-muted">Email address</Label>
               <Input
                 type="email"
@@ -55,18 +56,18 @@ render() {
                 placeholder="Enter email"
               />
             </FormGroup>
-<FormGroup controlId="formBasicName">
+            <FormGroup control_id="formBasicName">
               <Label className="text-muted">Name</Label>
               <Input
                 type="text"
                 name="name"
                 value={this.state.name}
-                className="text-primary"
+                className="text-primary input"
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Name"
               />
-            </FormGroup>
-<FormGroup controlId="formBasicSubject">
+            </FormGroup>      
+            <FormGroup control_id="formBasicSubject">
               <Label className="text-muted">Subject</Label>
               <Input
                 type="text"
@@ -77,7 +78,7 @@ render() {
                 placeholder="Subject"
               />
             </FormGroup>
-<FormGroup controlId="formBasicMessage">
+            <FormGroup control_id="formBasicMessage">
               <Label className="text-muted">Message</Label>
               <Input
                 type="textarea"
@@ -85,13 +86,15 @@ render() {
                 className="text-primary"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
+                placeholder="Your special message to me"
               />
             </FormGroup>
-<Button variant="primary" type="submit">
+            <Button id="submit" variant="primary" type="submit">
               Submit
             </Button>
           </Form>
-      </>
+          </div>
+        </>
     )
   }
 }

@@ -4,9 +4,9 @@ html {
 
 body {
   background: #121212;
-  font-family: "Cabin", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5rem;
   color: whitesmoke;
 }
 

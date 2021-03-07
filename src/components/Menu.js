@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
   <div className='menu'> 
-    <span className="logo">Kervintz Noel </span>
+    <span className="logo">KN </span>
     
     <div className="list">
       <Link to="/">Home</Link>

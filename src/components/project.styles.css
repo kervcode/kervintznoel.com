@@ -1,24 +1,33 @@
 .projects {
-    width: 80%;
-    margin: 40px auto;
-    flex-direction: row;
-    background: rgba(251, 252, 250, 0.020);
-    border-radius: 5px;
-    padding: 32px;
-    color: white;
+  width: 80%;
+  margin: 40px auto;
+  flex-direction: row;
+  background: rgba(251, 252, 250, 0.02);
+  border-radius: 5px;
+  padding: 32px;
+  color: white;
 }
 
 .project {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .projects h2 {
-    font-size: 32px;
-    padding-bottom: 32px;
+  font-size: 32px;
+  padding-bottom: 32px;
+}
+
+.project_image {
+  padding-right: 32px;
 }
 
 .project_description {
-    text-align: left;
-    padding-right: 32px;
+  text-align: left;
+  padding: 0 32px;
+}
+
+.button {
+  width: 200px;
 }

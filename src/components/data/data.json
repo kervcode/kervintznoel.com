@@ -1,5 +1,48 @@
 [
       {
+        "id": "4",
+        "project_name": "React Gallery app",
+        "description": "Public API Requests",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://kervcode.github.io/react-gallery-app/",
+        "github_link": "https://github.com/kervcode/react-gallery-app",
+        "image_urls": [
+          "/images/random-user-small.png",
+          "/images/random-large1.png",
+          "/images/random-large2.png",
+          "/images/random-large3.png"
+        ]
+      },
+      {
+        "id": "4",
+        "project_name": "Public API Requests",
+        "description": "This was the fifth project that I worked on the the TreeHouse Techdegree. I was requested to use the Ramdom User Generator API to grab information for 12 random users, (employees in the instances of this project) and use the gathered data to build a prototype for a fictitious company called Awesome Startup.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://randomusergenerator1.netlify.app/",
+        "github_link": "https://github.com/kervcode/Random-User-Generator",
+        "image_urls": [
+          "/images/random-user-small.png",
+          "/images/random-large1.png",
+          "/images/random-large2.png",
+          "/images/random-large3.png"
+        ],
+        "features": []
+      },
+      {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "in this interactive from project, ",
+        "technologies": ["HTML", "CSS", "jQuery"],
+        "live_link": "https://kervcode.github.io/Interactive-Form/",
+        "github_link": "https://github.com/kervcode/Interactive-Form/",
+        "image_urls": [
+          "/images/form-small.png",
+          "/images/form-large1.png",
+          "/images/form-large2.png",
+          "/images/form-large3.png"
+        ]
+      },
+      {
         "id": "0",
         "project_name": "Random Quote Generator",
         "description": "In this project, I used vanilla JavaScript to create an app that displays random quote each time a user interact with the Show Another Quote Button. The background color of the page also randomly change for each click on the button. Below are some screenshot of different quotes showing the functionality of the app.",
@@ -28,20 +71,6 @@
         ]
       },
       {
-        "id": "2",
-        "project_name": "Interactive Form",
-        "description": "in this interactive from project, ",
-        "technologies": ["HTML", "CSS", "jQuery"],
-        "live_link": "https://kervcode.github.io/Interactive-Form/",
-        "github_link": "https://github.com/kervcode/Interactive-Form/",
-        "image_urls": [
-          "/images/form-small.png",
-          "/images/form-large1.png",
-          "/images/form-large2.png",
-          "/images/form-large3.png"
-        ]
-      },
-      {
         "id": "3",
         "project_name": "Phrase Hunter",
         "description": "Phrase Hunter",
@@ -55,21 +84,6 @@
           "/images/phrase-hunter-large3.png",
           "/images/phrase-hunter-large4.png"
         ]
-      },
-      {
-        "id": "4",
-        "project_name": "Public API Requests",
-        "description": "Public API Requests",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://randomusergenerator1.netlify.app/",
-        "github_link": "https://github.com/kervcode/Random-User-Generator",
-        "image_urls": [
-          "/images/random-user-small.png",
-          "/images/random-large1.png",
-          "/images/random-large2.png",
-          "/images/random-large3.png"
-        ]
       }
+      
     ]
-  
-  

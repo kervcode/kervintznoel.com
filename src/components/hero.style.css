@@ -70,10 +70,12 @@
   margin-right: 10px;
 }
 
-.button:hover {
+.button:hover,
+.MuiSvgIcon-root:hover {
   background-color: transparent;
   border: 2px solid white;
   color: #fff;
+  transition: 0.6s;
 }
 
 .footer {
@@ -88,14 +90,18 @@
   font-weight: 600;
 }
 
-.social-icons {
-  width: 30px;
+.MuiSvgIcon-root {
+  /* width: 30px; */
   height: 30px;
   background-color: #fff;
   color: black;
   padding: 10px;
   margin: 10px;
+  border: 2px solid white;
   border-radius: 3px;
+}
+
+.MuiSvgIcon-root {
 }
 
 /* MEDIA QUERY */

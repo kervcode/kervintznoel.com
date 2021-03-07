@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Project_lists from './components/Project_list';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import detailsPage from './components/detailsPage';
 
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
     <div className="App">
       <Menu />
       <Switch>
-      <Route exact path="/" component={Header} />
+        <Route exact path="/" component={Header} />
         <Route exact path="/projects" component={Project_lists} />
         <Route exact path="/contact" component={Contact} />
-        <Contact />
+        <Route exact path="/projectdetails" component={detailsPage} />
       </Switch>   
       <Footer />
     </div>

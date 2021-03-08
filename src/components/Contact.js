@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
 import "./contact.styles.css";
+import axios from 'axios';
 import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
@@ -10,50 +11,78 @@ class Contact extends Component {
     email: '',
     subject: '',
     message: '',
+    disabled: false,
+    emailSent: null,
+    errors: [],
+  } 
+ 
+  change = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+
+    this.setState(() => {
+      return {
+        [name]: value
+      };
+    });
+    
+    console.log(value)
   }
-handleSubmit(e) {
-    e.preventDefault()
-    const { name, email, subject, message } = this.state
-    let templateParams = {
-      from_name: email,
-      to_name: '<YOUR_EMAIL_ID>',
-      subject: subject,
-      message_html: message,
-     }
-     emailjs.send(
-      'outlook',
-      'template_XXXXXXXX',
-       templateParams,
-      'user_XXXXXXXXXXXXXXXXXXXX'
-     )
-     this.resetForm()
- }
-resetForm() {
+  
+  handleSubmit = (e) => {
+    e.preventDefault();
+    
     this.setState({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
+        disable: true
     })
+    
+    axios.post('http://localhost:3003/api/contact', this.state)
+            .then(res => {
+                console.log(res.data)
+                if(res.data.success) {
+                    this.setState({
+                        disabled: false,
+                        emailSent: true
+                    });
+                } else {
+                    this.setState({
+                        disabled: false,
+                        emailSent: false
+                    });
+                }
+            })
+            .catch(err => {
+                console.log(err);
+
+                this.setState({
+                    disabled: false,
+                    emailSent: false
+                });
+            })
   }
-handleChange = (param, e) => {
-    this.setState({ [param]: e.target.value })
-  }
-render() {
+  
+  
+    
+  
+render(){
+  
+  const { name, email, subject, message, errors} = this.state;
+  
     return (
         <>
           <div className="contact-form">
             <h1 className="contact-heading">Get in Touch</h1>
-          <Form onSubmit={this.handleSubmit.bind(this)}>
+          <Form onSubmit={this.handleSubmit}>
             <FormGroup control_id="formBasicEmail">
               <Label className="text-muted">Email address</Label>
               <Input
                 type="email"
                 name="email"
-                value={this.state.email}
+                value={email}
                 className="text-primary"
-                onChange={this.handleChange.bind(this, 'email')}
+                onChange={this.change}
                 placeholder="Enter email"
+                errors={errors}
               />
             </FormGroup>
             <FormGroup control_id="formBasicName">
@@ -61,9 +90,9 @@ render() {
               <Input
                 type="text"
                 name="name"
-                value={this.state.name}
+                value={name}
                 className="text-primary input"
-                onChange={this.handleChange.bind(this, 'name')}
+                onChange={this.change}
                 placeholder="Name"
               />
             </FormGroup>      
@@ -73,8 +102,8 @@ render() {
                 type="text"
                 name="subject"
                 className="text-primary"
-                value={this.state.subject}
-                onChange={this.handleChange.bind(this, 'subject')}
+                value={subject}
+                onChange={this.change}
                 placeholder="Subject"
               />
             </FormGroup>
@@ -84,12 +113,12 @@ render() {
                 type="textarea"
                 name="message"
                 className="text-primary"
-                value={this.state.message}
-                onChange={this.handleChange.bind(this, 'message')}
+                value={message}
+                onChange={this.change}
                 placeholder="Your special message to me"
               />
             </FormGroup>
-            <Button id="submit" variant="primary" type="submit">
+            <Button id="submit" variant="primary" type="submit" disabled={this.disabled}>
               Submit
             </Button>
           </Form>

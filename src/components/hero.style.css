@@ -101,12 +101,9 @@
   border-radius: 3px;
 }
 
-.MuiSvgIcon-root {
-}
-
 /* MEDIA QUERY */
 
-@media only screen and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-width: 280px) and (max-width: 812px) {
   .my_title {
     font-size: 16px;
     padding: 0;
@@ -149,5 +146,14 @@
 
   .image img {
     width: 100%;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  .MuiSvgIcon-root {
+    padding: 5px;
+    margin: 15px;
   }
 }

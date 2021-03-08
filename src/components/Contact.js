@@ -36,7 +36,7 @@ class Contact extends Component {
         disable: true
     })
     
-    axios.post('http://localhost:3003/api/contact', this.state)
+    axios.post('http://localhost:3000/api/contact', this.state)
             .then(res => {
                 console.log(res.data)
                 if(res.data.success) {

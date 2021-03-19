@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Project_lists from './components/Project_list';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import detailsPage from './components/detailsPage';
 
 

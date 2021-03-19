@@ -41,6 +41,7 @@
   .logo {
     font-size: 16px;
     align-self: flex-start;
+    z-index: 0;
   }
 
   .menu {
@@ -56,6 +57,7 @@
     width: 30px;
     height: auto;
     align-self: baseline;
+    z-index: 0;
   }
 
   .slides {
@@ -68,7 +70,7 @@
   }
 
   .open {
-    background:burlywood;
+    background: white;
     color: black;
     display: flex;
     flex-direction: column;
@@ -76,10 +78,14 @@
     z-index: 111;
     width: 100vw;
     height: 100vh;
+    padding: 0;
   }
 
   .open a {
-    padding: 50px 0;
+    padding: 60px 0;
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
     /* display: flex; *
     color: black;
     /* padding: 20px 0; */

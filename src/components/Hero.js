@@ -21,7 +21,7 @@ const Hero = () => (
       <h3 className="location">Based in Boston, MA.</h3>
       {/* <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p> */}
       <p className="pitch">
-        Presently, I am User Support Specialist for a seeking a position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
+        I am seeking a position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
       </p>
       <Link to="/projects">
         <button className="button">Projects</button>

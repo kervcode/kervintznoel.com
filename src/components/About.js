@@ -9,7 +9,7 @@ function About() {
     return (
       <div className="container">
         <p className="pitch">
-          My name is Kervintz Noel. I am a User Support Specialist and a Full Stack Software Engineer for the remainder of the day and by heart.
+          My name is Kervintz Noel. I am a User Support Specialist and a Full Stack JavaScript Developer for the remainder of the day and by heart.
           </p>
           <p>
           I am seeking a developer position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.

@@ -21,7 +21,7 @@ function About() {
           During my years in computer science and IT support, I became interested with many subjects in IT. Among the interesting topics I was studying, I realized that programming was my true passion. For this reason, I decided to focus on what I wanted to do the most and become a Full Stack JavaScript developer. I did that by studying with Teamtreehouse and completed 10 projects on my own.
            </p>
           <p>
-          Besides my professional life, I am afamily oriented guy, a husband, and a dad to a 2 months old boy. When I am not working or coding on my computer, I am for sure having fun with my son, wife or trying a YouTube recipe for the family on a Sunday.          
+          Besides my professional life, I am a family oriented guy, a husband, and a dad to a 2 months old boy. When I am not working or coding on my computer, I am for sure having fun with my son, wife or trying a YouTube recipe for the family on a Sunday.          
         </p>
       </div>
     )

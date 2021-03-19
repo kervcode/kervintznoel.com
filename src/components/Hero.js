@@ -11,7 +11,7 @@ const Hero = () => (
     
     <div className="image">
       <img src={profile_picture} alt="" className="profile_picture"/>
-      <div className="tags"> #Husband #Husband #Father #NewDad #Developer #JavaScript</div>
+      <div className="tags"> #Husband #Father #NewDad #Developer #JavaScript</div>
     </div>
     
     <div className="info_text">
@@ -19,7 +19,7 @@ const Hero = () => (
       <h1 className="my_name">Kervintz Noel.</h1>
       <h2 className="info_text_heading"> Full Stack Developer.</h2>
       <h3 className="location">Based in Boston, MA.</h3>
-      <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p>
+      {/* <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p> */}
       <p className="pitch">
         Full stack developer seeking a position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
       </p>

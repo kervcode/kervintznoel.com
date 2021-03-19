@@ -7,27 +7,24 @@ import { Link} from 'react-router-dom';
 
 function About() {
     return (
-        <div className="hero">
-       <div className="image">
-       <img src={profile_picture} alt="" className="profile_picture"/>
-       </div>
-       <div className="info_text">
-          <p>Hello there, I'm</p>
-          <h1 className="my_name">Kervintz Noel.</h1>
-          <h2 className="info_text_heading"> Full Stack Developer.</h2>
-          <h3 className="location">Based in Boston, MA.</h3>
-          <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p>
-          <p className="pitch">
-           Full stack developer seeking a position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
+      <div className="container">
+        <p className="pitch">
+          My name is Kervintz Noel. I am a 9 to 5 User Support Specialist and a Full Stack Software Engineer for the reminder of day and by heart.
           </p>
-          <Link to="/projects">
-            <button className="button">Projects</button>
-          </Link>
-          <Link to="/contact">
-            <button className="button">Contact me</button>
-          </Link>
-       </div>
-  </div>
+          <p>
+          I am seeking a developper position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
+          </p>
+          <p>
+          I have been doing IT support since 2010. I was my last year of a computer science degree in Haiti at the time. I continued with the same field when I moved the US.
+           </p>
+          <p>
+          
+          During my Computer science years and IT support, I became interested with many subjects in IT. Among the interresting topics I was studying, I realized that programming was my true passion. For this reason, I decided to focus on what I wanted to most to become a Full Stack JavaScript developer. I did that by studying with Teamtreehouse and completed 10 projects on my own.
+           </p>
+          <p>
+          Besides my professional life, I am family oriented guys, a husband, and a dad to a 2 months boy. When I not working or coding on my computer, I am for sure having fun with my son, wife or trying a YouTube recipe for the family on a Sunday.          
+        </p>
+      </div>
     )
 }
 

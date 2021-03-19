@@ -13,16 +13,13 @@ const Menu = () => {
     <div className='menu'> 
       <span className="logo">KN </span>
       
-      <motion.div className={"list " + open}
-        initial={{x: 100}}
-        animate={{x: 0}}
-        transition={{delay: 1.5}}
-      >
+      <div className={"list " + open}>
         <Link to="/" onClick= { () => setOpen("close")}>Home</Link>
         <Link to="/projects" onClick= { () => setOpen("close")}>Projects</Link>
+        <Link to="/about" onClick= { () => setOpen("close")}>About me</Link>
         {/* <Link to="/blog" onClick= { () => setOpen("close")}>Blog</Link> */}
         {/* <Link to="/Contact" onClick= { () => setOpen("close")}>Contact</Link> */}
-      </motion.div>
+      </div>
       
       <div className="burger" onClick={() => setOpen(open === "close" ? "open" : "close")}>
         <div className="slides"></div>

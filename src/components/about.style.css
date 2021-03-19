@@ -1,0 +1,9 @@
+.containter {
+  width: 80%;
+  margin: 40px auto;
+  flex-direction: row;
+  background: rgba(251, 252, 250, 0.02);
+  border-radius: 5px;
+  padding: 32px;
+  color: white;
+}

@@ -11,13 +11,16 @@ const Hero = () => (
     
     <div className="image">
       <img src={profile_picture} alt="" className="profile_picture"/>
-      <div className="tags"> #Husband #Father #NewDad #Developer #JavaScript</div>
+      <div className="tags"> 
+        <p>#Husband #Father #NewDad #Developer</p> 
+        <p>#React #Express #NodeJS #JavaScript</p>
+      </div>
     </div>
     
     <div className="info_text">
       <p>Hello there, I'm</p>
       <h1 className="my_name">Kervintz Noel.</h1>
-      <h2 className="info_text_heading"> Full Stack Developer.</h2>
+      <h2 className="info_text_heading"> Full Stack Developer,</h2>
       <h3 className="location">Based in Boston, MA.</h3>
       {/* <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p> */}
       <p className="pitch">

@@ -9,6 +9,11 @@
   text-align: left;
 }
 
+.container h1 {
+  padding: 40px 0;
+  text-align: center;
+}
+
 .container p {
   margin-bottom: 30px;
 }

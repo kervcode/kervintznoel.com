@@ -13,6 +13,9 @@
 }
 
 .list {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -20,9 +23,14 @@
 }
 
 .list a {
-  color: #fff;
+  color: #906860;
   text-decoration: none;
   padding-left: 32px;
+}
+
+.list a:hover {
+  font-size: 19px;
+  color: #fff;
 }
 
 .burger {

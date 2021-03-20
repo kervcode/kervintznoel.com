@@ -2,8 +2,9 @@
   padding: 0 0 150px 0;
 } */
 
-.my_title {
-  margin-bottom: 150px;
+.info_text_heading {
+  /* margin-bottom: 150px; */
+  color: #906860;
 }
 
 .hero {

@@ -12,8 +12,8 @@ const Hero = () => (
     <div className="image">
       <img src={profile_picture} alt="" className="profile_picture"/>
       <div className="tags"> 
-        <p>#Husband #Father #NewDad #Developer</p> 
-        <p>#React #Express #NodeJS #JavaScript</p>
+        <p>#Husband #Father #NewDad #softwareDevelopment
+        </p>
       </div>
     </div>
     

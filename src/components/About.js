@@ -10,11 +10,14 @@ function About() {
     return (
       <div className="container">
         <h1>A few words about me</h1>
-        <div>
-          <div className="about_images">
-          
+        <div className="container_detail">
+          <div className="container_images">
+            <img src={process.env.PUBLIC_URL + "image/1.jpg"} alt="t" className="1" />
+            <img src={process.env.PUBLIC_URL + "image/2.jpg"} alt="t" className="1" />
+            <img src={process.env.PUBLIC_URL + "image/3.jpg"} alt="t" className="1" />
+            <img src={process.env.PUBLIC_URL + "image/4.jpg"} alt="t" className="1" />
           </div>
-          <div className="about_text">
+          <div className="container_text">
               <p>
                 My name is Kervintz Noel. I am a User Support Specialist and a Full Stack JavaScript Developer for the remainder of the day and by heart.
               </p>
@@ -25,7 +28,7 @@ function About() {
                 I have been doing IT support since 2010. I was my last year of a computer science degree in Haiti at the time. I continued with the same field when I moved the US.
                 </p>
               <p>
-                During my years in computer science and IT support, I became interested with many subjects in IT. Among the interesting topics I was studying, I realized that programming was my true passion. For this reason, I decided to focus on what I wanted to do the most and become a Full Stack JavaScript developer. I did that by studying with Teamtreehouse and completed 10 projects on my own.
+                During my years in computer science and IT support, I became interested with many subjects in IT. Among the interesting topics I was studying, I realized that programming was my true passion. For this reason, I decided to focus on what I wanted to do the most and become a Full Stack JavaScript developer. I did that by studying with <a href="http://referrals.trhou.se/kervintznoel2" alt="Teamthreehouse">Teamtreehouse</a> and completed 10 projects on my own.
                 </p>
               <p>
                 Besides my professional life, I am a family oriented guy, a husband, and a dad to a 2 months old boy. When I am not working or coding on my computer, I am for sure having fun with my son, wife or trying a YouTube recipe for the family on a Sunday.          

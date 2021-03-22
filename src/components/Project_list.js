@@ -1,6 +1,7 @@
 import react from 'react';
 import data from './data/data.json';
 import Projects from './Project';
+import "./project.styles.css";
 
 
 const Project_lists = () => {
@@ -13,18 +14,16 @@ const Project_lists = () => {
         description={dt.description} 
         live={dt.live_link}
         git={dt.github_link}
-        tech={dt.technologies}
+        technologies={dt.technologies}
     /> )
     
     return (
        <div>
             <h2>Projects</h2>
-            <div>{ projects }</div>
+                <div className="projectContainer">{ projects }</div>
        </div>
     )
     
 }
 
 export default Project_lists;
-
-

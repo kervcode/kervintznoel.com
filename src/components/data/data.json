@@ -2,8 +2,8 @@
        {
         "id": "0",
         "project_name": "React Gallery app",
-        "description": "Public API Requests",
-        "technologies": ["HTML", "CSS", "JavaScript"],
+        "description": "I used Create-React-App and the Flickr API to create an image gallery app.",
+        "technologies": ["React", "React-Router", "JSX", "JavaScript", "API"],
         "live_link": "https://kervcode.github.io/react-gallery-app/",
         "github_link": "https://github.com/kervcode/react-gallery-app",
         "image_urls": [

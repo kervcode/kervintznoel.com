@@ -13,9 +13,11 @@ function About() {
         <div className="container_detail">
           <div className="container_images">
             <img src={process.env.PUBLIC_URL + "image/1.jpg"} alt="t" className="1" />
+            {/*
             <img src={process.env.PUBLIC_URL + "image/2.jpg"} alt="t" className="1" />
             <img src={process.env.PUBLIC_URL + "image/3.jpg"} alt="t" className="1" />
             <img src={process.env.PUBLIC_URL + "image/4.jpg"} alt="t" className="1" />
+            */}
           </div>
           <div className="container_text">
               <p>

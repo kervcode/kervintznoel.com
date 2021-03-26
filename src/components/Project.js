@@ -5,20 +5,27 @@ import detailsPage from './detailsPage';
 
 
 const Projects = ({ name, description, live, git, technologies }) => {
-    console.log(name)
+    console.log(technologies)
     return (
             <div className="project_card">
                <div className="img_box">
                     <img src={process.env.PUBLIC_URL + "image/" + name +".jpg"} alt="t" className="project_image" />
                </div>
-                <h2>{name}</h2>
+                <h2 className="project_card_name">{name}</h2>
                <div className="content">
                    <p>{description}</p>
                    <ul>  
-                        {technologies.map( (technology, i) => {
-                            <li key={i}>technology</li>
-                        })}
+                        <p className="stack">Technology used:</p>
+                        {technologies.map( technology => <li> {technology} </li>)}
                    </ul>
+                   <div className="btn">
+                        <Link to="/projects">
+                            <button className="button">Projects</button>
+                        </Link>
+                        <Link to="/contact">
+                            <button className="button">Contact me</button>
+                        </Link>
+                    </div>
                </div>
             </div>
     )

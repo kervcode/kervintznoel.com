@@ -20,18 +20,23 @@
 
 .container_detail {
   display: flex;
+  justify-content: center;
 }
 
 .container_images {
-  flex: 0.6;
+  flex: 0.4;
   display: flex;
   flex-wrap: wrap;
 }
 
-.container_images img {
-  padding: 0 10px 20px 10px;
+.aboutme-picture {
+  flex: 0.4;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .container_text {
   flex: 0.4;
+  margin-left: 32px;
 }

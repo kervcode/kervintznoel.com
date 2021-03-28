@@ -36,7 +36,7 @@ class Contact extends Component {
         disable: true
     })
     
-    axios.post('http://localhost:3000/api/contact', this.state)
+    axios.post('http://localhost:3003/api/contact', this.state)
             .then(res => {
                 console.log(res.data)
                 if(res.data.success) {
@@ -44,6 +44,7 @@ class Contact extends Component {
                         disabled: false,
                         emailSent: true
                     });
+                    this.clearForm();
                 } else {
                     this.setState({
                         disabled: false,
@@ -59,6 +60,17 @@ class Contact extends Component {
                     emailSent: false
                 });
             })
+  }
+
+  clearForm =  () => {
+    this.setState(
+      {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      }
+    )
   }
   
   
@@ -79,7 +91,7 @@ render(){
                 type="email"
                 name="email"
                 value={email}
-                className="text-primary"
+                className="text-primary form_input"
                 onChange={this.change}
                 placeholder="Enter email"
                 errors={errors}
@@ -91,7 +103,7 @@ render(){
                 type="text"
                 name="name"
                 value={name}
-                className="text-primary input"
+                className="text-primary form_input"
                 onChange={this.change}
                 placeholder="Name"
               />
@@ -101,7 +113,7 @@ render(){
               <Input
                 type="text"
                 name="subject"
-                className="text-primary"
+                className="text-primary form_input"
                 value={subject}
                 onChange={this.change}
                 placeholder="Subject"
@@ -112,7 +124,7 @@ render(){
               <Input
                 type="textarea"
                 name="message"
-                className="text-primary"
+                className="text-primary form_input"
                 value={message}
                 onChange={this.change}
                 placeholder="Your special message to me"

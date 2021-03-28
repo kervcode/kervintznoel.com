@@ -16,8 +16,8 @@
       {
         "id": "1",
         "project_name": "Public API Requests",
-        "description": "This was the fifth project that I worked on the the TreeHouse Techdegree. I was requested to use the Ramdom User Generator API to grab information for 12 random users, (employees in the instances of this project) and use the gathered data to build a prototype for a fictitious company called Awesome Startup.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
+        "description": "I used the Random User Generator API to pull in employee data to build a prototype of a Startup’s  Employee Directory.",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
         "live_link": "https://randomusergenerator1.netlify.app/",
         "github_link": "https://github.com/kervcode/Random-User-Generator",
         "image_urls": [
@@ -31,7 +31,7 @@
       {
         "id": "2",
         "project_name": "Interactive Form",
-        "description": "in this interactive from project, ",
+        "description": "Fully interactive form for a Full Stack Developer Conference.",
         "technologies": ["HTML", "CSS", "jQuery"],
         "live_link": "https://kervcode.github.io/Interactive-Form/",
         "github_link": "https://github.com/kervcode/Interactive-Form/",

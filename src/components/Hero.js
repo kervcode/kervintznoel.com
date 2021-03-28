@@ -8,7 +8,6 @@ import './hero.style.css'
 
 const Hero = () => (
   <div className="hero">
-    
     <div className="image">
       <img src={profile_picture} alt="" className="profile_picture"/>
       <div className="tags"> 
@@ -24,7 +23,7 @@ const Hero = () => (
       <h3 className="location">Based in Boston, MA.</h3>
       {/* <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p> */}
       <p className="pitch">
-        I am seeking a developer position where I can expand my skills and improve my efficiency. Dedicated and hard working, I aspire to excellence in all that I do. My main desire is to improve my technical skills and build my career as a professional developer.
+        I am seeking a developer position where I can expand my skills and improve my efficiency. Dedicated and hard working, I aspire to excellence in all that I do.  Skilled in solving problems with HTML, CSS, Javascript, Node, Express, React and SQL. My main desire is to continue to improve my technical skills and build my career as a professional developer.
       </p>
       <Link to="/projects">
         <button className="button">Projects</button>

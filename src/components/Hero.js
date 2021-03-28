@@ -24,7 +24,7 @@ const Hero = () => (
       <h3 className="location">Based in Boston, MA.</h3>
       {/* <p className="icons"><FaJs /> <FaReact /><FaNodeJs /></p> */}
       <p className="pitch">
-        I am seeking a developer position where I can expand my skills and efficient while improving my technical skills and build my career as a professional developer.
+        I am seeking a developer position where I can expand my skills and improve my efficiency. Dedicated and hard working, I aspire to excellence in all that I do. My main desire is to improve my technical skills and build my career as a professional developer.
       </p>
       <Link to="/projects">
         <button className="button">Projects</button>

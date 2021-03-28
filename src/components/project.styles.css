@@ -38,7 +38,7 @@
 
 .project_card .content ul {
   text-align: left;
-  padding-left: 16px;
+  /* padding-left: 16px; */
 }
 
 .project_card .content li {
@@ -96,8 +96,6 @@
   font-weight: 800;
   font-size: 18px;
 }
-
-
 
 /* MEDIA Query */
 

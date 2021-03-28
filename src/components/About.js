@@ -12,28 +12,23 @@ function About() {
         <h1>A few words about me</h1>
         <div className="container_detail">
           <div className="container_images">
-            <img src={process.env.PUBLIC_URL + "image/1.jpg"} alt="t" className="1" />
-            {/*
-            <img src={process.env.PUBLIC_URL + "image/2.jpg"} alt="t" className="1" />
-            <img src={process.env.PUBLIC_URL + "image/3.jpg"} alt="t" className="1" />
-            <img src={process.env.PUBLIC_URL + "image/4.jpg"} alt="t" className="1" />
-            */}
+            <img src={process.env.PUBLIC_URL + "image/aboutme.jpg"} alt="t" className="aboutme-picture" />
           </div>
           <div className="container_text">
               <p>
-                My name is Kervintz Noel. I am a User Support Specialist and a Full Stack JavaScript Developer for the remainder of the day and by heart.
+               My name is Kervintz Noel and I currently work as a User Support Specialist by day and as a Full Stack JavaScript Developer by night, and every spare moment in between. The latter is my absolute passion.
               </p>
               <p>
-                I am seeking a developer position where I can be productive and efficient while improving my technical skills and build my career as a professional developer.
+                I am seeking a developer position where I can grow in experience and efficiency, improving my technical skills and becoming a valued member of a professional developer team.
               </p>
               <p>
-                I have been doing IT support since 2010. I was my last year of a computer science degree in Haiti at the time. I continued with the same field when I moved the US.
+                In 2010, while in my last year of University in Haiti where I studied Computer Science, I had the opportunity to move to the United States and continued in the computer field.  Here, I realized my passion for development and have been working to that end these last five years.  I earned a Full Stack JavaScript Developer Certificate from Treehouse by night.
                 </p>
               <p>
-                During my years in computer science and IT support, I became interested with many subjects in IT. Among the interesting topics I was studying, I realized that programming was my true passion. For this reason, I decided to focus on what I wanted to do the most and become a Full Stack JavaScript developer. I did that by studying with <a href="http://referrals.trhou.se/kervintznoel2" alt="Teamthreehouse">Teamtreehouse</a> and completed 10 projects on my own.
+                In 2010, while in my last year of University in Haiti where I studied Computer Science, I had the opportunity to move to the United States and continued in the computer field.  Here, I realized my passion for development and have been working to that end these last five years.  I earned a Full Stack JavaScript Developer Certificate from Treehouse by night.
                 </p>
               <p>
-                Besides my professional life, I am a family oriented guy, a husband, and a dad to a 2 months old boy. When I am not working or coding on my computer, I am for sure having fun with my son, wife or trying a YouTube recipe for the family on a Sunday.          
+                I am a loving husband and a new father of a precious 2-month old baby boy. When I am not coding to further improve my skills and learn the newest tech, I am for sure having fun with my son, wife or trying a YouTube recipe for my family on a Sunday.      
               </p>
           </div>
         </div>

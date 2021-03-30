@@ -36,7 +36,7 @@ class Contact extends Component {
         disable: true
     })
     
-    axios.post('http://localhost:3003/api/contact', this.state)
+    axios.post('https://kervintznoel-api.herokuapp.com/api/contact')
             .then(res => {
                 console.log(res.data)
                 if(res.data.success) {

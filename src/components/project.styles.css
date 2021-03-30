@@ -100,15 +100,21 @@
 /* MEDIA Query */
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
-  .project_card {
+  .projectContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90vw;
   }
 
+  .project_card {
+    width: 90vw;
+    height: 200px;
+  }
+
   .img_box {
     justify-content: center;
+    width: 100%;
   }
 
   .img_box img {
@@ -123,7 +129,7 @@
   .project_image {
     padding: 0;
 
-    margin: 20px 0;
+    /* margin: 20px 0; */
   }
 
   .button {

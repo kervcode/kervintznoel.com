@@ -11,7 +11,7 @@ function About() {
       <div className="container">
         <h1>A few words about me</h1>
         <div className="container_detail">
-          <div className="container_images">
+          <div className="container_image">
             <img src={process.env.PUBLIC_URL + "image/aboutme.jpg"} alt="t" className="aboutme-picture" />
           </div>
           <div className="container_text">

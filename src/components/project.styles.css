@@ -103,6 +103,17 @@
   .project_card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  .img_box {
+    justify-content: center;
+  }
+
+  .img_box img {
+    padding: 0;
+    margin: 0;
   }
 
   .project_description {

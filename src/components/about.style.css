@@ -1,4 +1,5 @@
 .container {
+  /* display: flex;
   width: 80%;
   margin: 40px auto;
   flex-direction: row;
@@ -6,12 +7,21 @@
   border-radius: 5px;
   padding: 32px;
   color: white;
-  text-align: left;
+  text-align: left; */
+
+  background: rgba(251, 252, 250, 0.02);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 40px auto;
+  /* padding: 64px; */
+  color: white;
+  line-height: 1.7;
 }
 
 .container h1 {
   padding: 40px 0;
-  text-align: center;
 }
 
 .container p {
@@ -21,22 +31,42 @@
 .container_detail {
   display: flex;
   justify-content: center;
+  padding: 32px;
 }
 
-.container_images {
-  flex: 0.4;
+.container_image {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
 }
 
 .aboutme-picture {
-  flex: 0.4;
-  width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
 .container_text {
-  flex: 0.4;
+  width: 60%;
   margin-left: 32px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .container_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container_image {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .container_text {
+    /* padding: 0; */
+    margin-left: 0;
+    width: 100%;
+    line-height: 1.7;
+  }
 }

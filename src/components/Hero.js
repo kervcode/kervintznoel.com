@@ -25,12 +25,14 @@ const Hero = () => (
       <p className="pitch">
         I am seeking a developer position where I can expand my skills and improve my efficiency. Dedicated and hard working, I aspire to excellence in all that I do.  Skilled in solving problems with HTML, CSS, Javascript, Node, Express, React and SQL. My main desire is to continue to improve my technical skills and build my career as a professional developer.
       </p>
-      <Link to="/projects">
+      <div className="btn">
+        <Link to="/projects">
         <button className="button">Projects</button>
       </Link>
       <Link to="/contact">
         <button className="button">Contact me</button>
       </Link>
+      </div>
     </div>
   </div>
 )

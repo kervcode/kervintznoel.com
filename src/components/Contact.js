@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
 import "./contact.styles.css";
 import axios from 'axios';
-import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
 class Contact extends Component {
@@ -44,7 +44,6 @@ class Contact extends Component {
                         disabled: false,
                         emailSent: true
                     });
-                    this.clearForm();
                 } else {
                     this.setState({
                         disabled: false,
@@ -59,7 +58,9 @@ class Contact extends Component {
                     disabled: false,
                     emailSent: false
                 });
-            })
+            });
+
+            this.clearForm();
   }
 
   clearForm =  () => {

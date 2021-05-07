@@ -7,13 +7,24 @@
 }
 
 .logo {
+  color: #906860;
+  border-radius: 4px;
   font-size: 24px;
-  font-weight: 700;
+  /* text-transform: uppercase; */
+  transform: translateY(5px);
+  font-weight: 800;
+}
+
+.logo__name{
+  font-size: 16px;
+  margin: -5px 5px 0 5px;
+  color: #fff;
+  transform: translateY(-5px);
 }
 
 .list {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 200;
   text-transform: uppercase;
   list-style-type: none;
   display: flex;
@@ -29,8 +40,9 @@
 }
 
 .list a:hover {
-  font-size: 19px;
-  color: #fff;
+  /* font-size: 19px;s */
+  font-weight: 400;
+  color: #777;
 }
 
 .burger {
@@ -87,15 +99,15 @@
     align-items: stretch;
     z-index: 111;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 0;
   }
 
   .open a {
     padding: 50px 0;
     color: #906860;
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 300;
     /* display: flex; *
     color: black;
     /* padding: 20px 0; */

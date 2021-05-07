@@ -11,7 +11,12 @@ const Menu = () => {
 
   return (
     <div className='menu'> 
-      <span className="logo">KN </span>
+      <div className="logo"> 
+        &#60;
+          <span className="logo__name">Kervintz Noel</span>
+        /&#62;
+      </div>
+      
       
       <div className={"list " + open}>
         <Link to="/" onClick= { () => setOpen("close")}>Home</Link>

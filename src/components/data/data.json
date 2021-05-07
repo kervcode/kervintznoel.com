@@ -45,7 +45,7 @@
       {
         "id": "3",
         "project_name": "Random Quote Generator",
-        "description": "In this project, I used vanilla JavaScript to create an app that displays random quote each time a user interact with the Show Another Quote Button. The background color of the page also randomly change for each click on the button. Below are some screenshot of different quotes showing the functionality of the app.",
+        "description": "In this Random Quote Generator, the user clicks a button and receives a random quote and background-color changes.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://randomquotegenerator.netlify.com/",
         "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
@@ -59,7 +59,7 @@
       {
         "id": "4",
         "project_name": "List Pagination",
-        "description": "List Pagination",
+        "description": "In this project, I created an employee list with images and user data.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
         "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",

@@ -3,7 +3,9 @@ import './detailPage.css'
 function detailsPage() {
   return (
     <div>
-      <h1>Project Page</h1>
+      <h1>Project Name</h1>
+      <p>Project Description</p>
+    
       
     </div>
   )

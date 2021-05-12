@@ -12,6 +12,7 @@
   border-radius: 5px;
   display: flex;
   width: 80%;
+  /* min-width: 768px; */
   margin: 0 auto;
   padding: 64px;
   color: white;

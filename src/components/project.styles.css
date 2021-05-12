@@ -14,7 +14,7 @@
 
 .project_card {
   
-  height: 500px;
+  height: 550px;
   /* background: #906860;
   width: 500px;
   height: 500px;
@@ -39,7 +39,7 @@
 }
 
 .project_card--box:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: 20px;
 }
 
 .btn {

@@ -13,18 +13,9 @@
 } 
 
 .project_card {
-  
-  height: 550px;
-  /* background: #906860;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex: 0.25;
-  margin: 15px; */
-  /* justify-content: space-between; */
-  /* flex-direction: column;
-  border-radius: 10px; */
-  /* padding: 20px 0; */
+  width: 400px;
+  /* height: 550px; */
+  margin: 0 10px;
 }
 
 .project_card--title{
@@ -33,17 +24,19 @@
 }
 
 .project_card--image {
+  min-width: 400px;
   border-radius: 3px;
+  margin: 0 auto;
   margin-bottom: 2rem;
   max-height: 320px;
+  min-height: 326px;
 }
 
 .project_card--box:not(:last-child) {
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .btn {
-  display: flex;
   justify-content: center;
 }
 

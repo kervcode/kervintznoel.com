@@ -4,9 +4,8 @@ import { Route, Link } from 'react-router-dom';
 import detailsPage from './detailsPage';
 
 
-const Projects = ({ name, description, live, git, technologies }) => {
-    console.log(technologies)
-
+const Projects = ({ name, description, live, git, technologies, dt, key }) => {
+    console.log(key)
     return (
             <div className="project_card">
                 <div className="project_card--title">
@@ -16,30 +15,17 @@ const Projects = ({ name, description, live, git, technologies }) => {
                         <img src={process.env.PUBLIC_URL + "image/" + name +".jpg"} alt="t" className="project_card--image" />
                 </div>
                 <div className="btn">
-                    <Link to="/projects">
+                    <Link to={key} >
+                        <button className="button">Details</button>
+                    </Link>
+                    <Link to={{pathname: live }} target="_blank">
                         <button className="button">Live Project</button>
                     </Link>
-                    <Link to="">
+                    <Link to={{pathname: git}} target="_blank">
                         <button className="button">GitHub link</button>
                     </Link>
-                </div>
-                {/* 
                     
-                <div className="content">
-                    <p>{description}</p>
-                    <ul>  
-                        ``<p className="stack">Technology used:</p>
-                        {technologies.map( technology => <li> {technology} </li>)}``
-                    </ul>
-                    <div className="btn">
-                        <Link to="/projects">
-                            <button className="button">Projects</button>
-                        </Link>
-                        <Link to="/contact">
-                            <button className="button">Contact me</button>
-                        </Link>
-                    </div>
-                </div> */}
+                </div>
             </div>
     )
 }

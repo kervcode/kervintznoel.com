@@ -19,7 +19,9 @@ function App() {
           <Route exact path="/" component={Header} />
           <Route exact path="/projects" component={Project_lists} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/project-detail" component={detailsPage} />
+          {/*
+          <Route exact path="/projects/:id" component={detailsPage} />
+          */}
           <Route exact path="/contact" component={Contact} />
         </Switch>   
         <Footer />

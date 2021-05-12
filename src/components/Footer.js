@@ -6,7 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Footer = () => (
     <div className = "footer">
-        <p> Develop by Kervintz - &copy;2021 </p>
+        <p> &copy;2021 | Designed & coded with <span className="emoji">&#9829;</span> by Kervintz</p>
         <div>
             <a href="https://github.com/kervcode" target="_blank">
                 <GitHubIcon className="social-icons"/>

@@ -17,10 +17,10 @@ const Projects = ({ name, description, live, git, technologies }) => {
                 </div>
                 <div className="btn">
                     <Link to="/projects">
-                        <button className="button">Projects</button>
+                        <button className="button">Live Project</button>
                     </Link>
-                    <Link to="/contact">
-                        <button className="button">Contact me</button>
+                    <Link to="">
+                        <button className="button">GitHub link</button>
                     </Link>
                 </div>
                 {/* 

@@ -49,6 +49,7 @@ textarea:focus {
 }
 
 #submit {
+  margin: 0 auto;
   width: 150px;
   font-size: 18px;
   cursor: pointer;

@@ -25,7 +25,7 @@ function About() {
                 In 2010, while in my last year of University in Haiti where I studied Computer Science, I had the opportunity to move to the United States and continued in the computer field.  Here, I realized my passion for development and have been working to that end these last five years.  I earned a Full Stack JavaScript Developer Certificate from Treehouse by night.
                 </p>
               <p>
-                I am a loving husband and a new father of a precious 4-month old baby boy. When I am not coding to further improve my skills and learn the newest tech, I am for sure having fun with my son, wife or trying a YouTube recipe for my family on a Sunday.      
+                I am a loving husband and a new father of a precious 4-months old baby boy. When I am not coding to further improve my skills and learn the newest tech, I am for sure having fun with my son, wife or trying a YouTube recipe for my family on a Sunday.      
               </p>
           </div>
         </div>

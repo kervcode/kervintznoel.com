@@ -4,8 +4,8 @@ import { Route, Link } from 'react-router-dom';
 import detailsPage from './detailsPage';
 
 
-const Projects = ({ name, description, live, git, technologies, dt, key }) => {
-    console.log(key)
+const Projects = ({ name, description, live, git, technologies, dt, id }) => {
+    
     return (
             <div className="project_card">
                 <div className="project_card--title">
@@ -15,7 +15,7 @@ const Projects = ({ name, description, live, git, technologies, dt, key }) => {
                         <img src={process.env.PUBLIC_URL + "image/" + name +".jpg"} alt="t" className="project_card--image" />
                 </div>
                 <div className="btn">
-                    <Link to={key} >
+                    <Link to={`projects/${id}`}>
                         <button className="button">Details</button>
                     </Link>
                     <Link to={{pathname: live }} target="_blank">

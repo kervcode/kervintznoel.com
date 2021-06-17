@@ -5,10 +5,11 @@ import "./project.styles.css";
 
 
 const Project_lists = () => {
-    console.log(data)
+  
 
     let projects = data.map( (dt) => 
     <Projects 
+        id={dt.id}
         key={dt.id} 
         name={dt.project_name}
         description={dt.description} 

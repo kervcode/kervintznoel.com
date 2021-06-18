@@ -22,7 +22,6 @@ class DetailsPage extends React.Component {
                         <h3>
                             {data.[id].project_name}
                         </h3>
-
                         <div>
                             {data.[id].description}
                         </div>
@@ -36,20 +35,19 @@ class DetailsPage extends React.Component {
                             }
                         </ul>
                     </div>
-                </div>
-                <div>
 
-                        {
-                            images.map((image, i) => {
-                                console.log(image)
-                                return (
-                                    <div key={i}>
-                                        <img src={process.env.PUBLIC_URL + "image/" + image +".png"} alt={image} />
-                                    </div>
-                                )
-                            })
-                        }
-                
+                    <div>
+                    {
+                        images.map((image, i) => {
+                            console.log(image)
+                            return (
+                                <div key={i}>
+                                    <img src={`/image/${image}`} alt={image} />
+                                </div>
+                            )
+                        })
+                    }
+                    </div>
                 </div>
             </div>
         );

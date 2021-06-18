@@ -7,7 +7,6 @@
         "live_link": "https://kervcode.github.io/react-gallery-app/",
         "github_link": "https://github.com/kervcode/react-gallery-app",
         "image_urls": [
-          "random-user-small.png",
           "random-large1.png",
           "random-large2.png",
           "random-large3.png"
@@ -21,7 +20,6 @@
         "live_link": "https://randomusergenerator1.netlify.app/",
         "github_link": "https://github.com/kervcode/Random-User-Generator",
         "image_urls": [
-          "random-user-small.png",
           "random-large1.png",
           "random-large2.png",
           "random-large3.png"
@@ -36,7 +34,6 @@
         "live_link": "https://kervcode.github.io/Interactive-Form/",
         "github_link": "https://github.com/kervcode/Interactive-Form/",
         "image_urls": [
-          "form-small.png",
           "form-large1.png",
           "form-large2.png",
           "form-large3.png"
@@ -50,7 +47,6 @@
         "live_link": "https://randomquotegenerator.netlify.com/",
         "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
         "image_urls": [
-          "random-quote-small.png",
           "random-quote-large1.png",
           "random-quote-large2.png",
           "random-quote-large3.png"
@@ -64,7 +60,6 @@
         "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
         "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
         "image_urls": [
-          "list-pagination-small.png",
           "list-pagination-large1.png",
           "list-pagination-large2.png",
           "list-pagination-large3.png"
@@ -78,7 +73,6 @@
         "live_link": "https://phrasehunt.netlify.com/",
         "github_link": "https://github.com/kervcode/phrase-hunter",
         "image_urls": [
-          "phrase-hunter-small.png",
           "phrase-hunter-large1.png",
           "phrase-hunter-large2.png",
           "phrase-hunter-large3.png",

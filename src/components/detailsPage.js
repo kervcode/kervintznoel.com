@@ -1,6 +1,7 @@
 import { Description } from '@material-ui/icons';
 import React from 'react';
 import data from './data/data.json';
+import './detailPage.css'
 
 
 class DetailsPage extends React.Component {
@@ -16,27 +17,33 @@ class DetailsPage extends React.Component {
     
         return (
             <div >
-                <h2>Project Description</h2>
+                <h1>Project Description</h1>
                 <div className="container">
+                    <h2 id="project_name">
+                        {data.[id].project_name}
+                    </h2>
+                
+
                     <div className="description"> 
-                        <h3>
-                            {data.[id].project_name}
-                        </h3>
-                        <div>
+                        
+                        <div className="project_title">
                             {data.[id].description}
                         </div>
-                    </div>
-                    <div className="technologies">
-                        <ul>
-                            {
-                                technologies.map( (tech, i) => {
-                                    return(<li key={i}>{tech}</li>)
-                                })
-                            }
-                        </ul>
-                    </div>
 
-                    <div>
+                        <div className="project_technologies">
+                            <h3>Technologies used: </h3>
+                            <ul>
+                                {
+                                    technologies.map( (tech, i) => {
+                                        return(<li key={i}>{tech}</li>)
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                    <div className="project_images">
                     {
                         images.map((image, i) => {
                             console.log(image)

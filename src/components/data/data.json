@@ -29,7 +29,7 @@
       {
         "id": "2",
         "project_name": "Interactive Form",
-        "description": "Fully interactive form for a Full Stack Developer Conference.",
+        "description": "Fully interactive form for a Full Stack Developer Conference. Used what I learnt with jQuery to enhance the User Experience of the form to make it engaging, interactive, and easy to use. Below are some screenshots for the different states of the form.",
         "technologies": ["HTML", "CSS", "jQuery"],
         "live_link": "https://kervcode.github.io/Interactive-Form/",
         "github_link": "https://github.com/kervcode/Interactive-Form/",

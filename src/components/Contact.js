@@ -36,20 +36,20 @@ class Contact extends React.Component {
       }
   }
 
-  onNameChange(event) {
-      this.setState({name: event.target.value})
+  onNameChange(e) {
+      this.setState({name: e.target.value})
   }
 
-  onEmailChange(event) {
-      this.setState({email: event.target.value})
+  onEmailChange(e) {
+      this.setState({email: e.target.value})
   }
 
-  onSubjectChange(event) {
-      this.setState({subject: event.target.value})
+  onSubjectChange(e) {
+      this.setState({subject: e.target.value})
   }
 
-  onMsgChange(event) {
-      this.setState({message: event.target.value})
+  onMsgChange(e) {
+      this.setState({message: e.target.value})
   }
 
   submitEmail(e){
@@ -69,7 +69,7 @@ class Contact extends React.Component {
 }
 
 resetForm(){
-    this.setState({name: '', email: '',subject:'', message: ''})
+    this.setState({name: '', email: '', subject:'', message: ''})
 }
 
   
@@ -78,6 +78,23 @@ resetForm(){
         <div className="contact-form">
          <h1 className="contact-heading">Get in Touch</h1>
            <Form onSubmit={this.submitEmail.bind(this)} method="POST">
+              <FormGroup control_id="formBasicName">
+              <div className="input-field">
+                <Label className="text-muted">Name</Label>
+                <Input
+                  type="text"
+                  name="name"
+                  value=""
+                  id="name"
+                  className="text-primary form_input"
+                  placeholder="Name"
+                  value={this.state.name}
+                  onChange={this.onNameChange.bind(this)}
+                />
+              </div>
+       
+              {/*{errors.name && <p className="validation">{errors.name}</p>} */}
+            </FormGroup> 
              <FormGroup control_id="formBasicEmail">
                <div className="input-field">
                  <Label className="text-muted">Email address</Label>
@@ -94,23 +111,7 @@ resetForm(){
                </div>
              {/*{errors.email && <p className="validation">{errors.email}</p>} */}
            </FormGroup>
-           <FormGroup control_id="formBasicName">
-               <div className="input-field">
-                 <Label className="text-muted">Name</Label>
-                 <Input
-                   type="text"
-                   name="name"
-                   value=""
-                   id="name"
-                   className="text-primary form_input"
-                   placeholder="Name"
-                   value={this.state.name}
-                   onChange={this.onNameChange.bind(this)}
-                 />
-               </div>
-           
-               {/*{errors.name && <p className="validation">{errors.name}</p>} */}
-         </FormGroup>      
+            
          <FormGroup control_id="formBasicSubject">
              <div className="input-field">
                <Label className="text-muted">Subject</Label>
@@ -120,7 +121,7 @@ resetForm(){
                  id="subject"
                  className="text-primary form_input"
                  value={this.state.subject}
-                 onChange={this.onSubjectChange}
+                 onChange={this.onSubjectChange.bind(this)}
                  placeholder="Subject"
                />
              </div>
@@ -143,7 +144,7 @@ resetForm(){
           
           {/*{errors.message && <p className="validation">{errors.message}</p>} */}
         </FormGroup>
-        <Button id="submit" type="submit" disabled="">
+        <Button id="submit" type="submit">
           Submit
         </Button>
       </Form>

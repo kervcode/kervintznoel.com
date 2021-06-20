@@ -1,5 +1,6 @@
 import { Description } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import data from './data/data.json';
 import './detailPage.css'
 
@@ -57,6 +58,11 @@ class DetailsPage extends React.Component {
                     </div>
                 </div>
             </div>
+            
+            <Link to={{ pathname: '/projects'}} >
+                <button className="button">Return</button>
+            </Link>
+                    
         );
     }
   }

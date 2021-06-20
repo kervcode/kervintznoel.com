@@ -39,6 +39,25 @@ li {
 
 
 img {
-  margin-bottom: 16px;
+  
+  margin: 16px auto;
   max-width: 100%;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 812px) {
+ 
+  .description {
+    flex-direction: column;
+  }
+  
+  .project_technologies {
+  /* min-width: 25%; */
+  margin-top: 32px;
+  text-align: left;
+  padding-left: 0;
+}
+  
+  
 }

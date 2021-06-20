@@ -1,21 +1,11 @@
 .container {
-  /* display: flex;
-  width: 80%;
-  margin: 40px auto;
-  flex-direction: row;
-  background: rgba(251, 252, 250, 0.02);
-  border-radius: 5px;
-  padding: 32px;
-  color: white;
-  text-align: left; */
-font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   background: rgba(251, 252, 250, 0.02);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 40px auto;
-  /* padding: 64px; */
   color: white;
   line-height: 1.7;
 }

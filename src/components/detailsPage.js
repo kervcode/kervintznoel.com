@@ -59,9 +59,9 @@ class DetailsPage extends React.Component {
                 </div>
             </div>
             
-            <Link to={{ pathname: '/projects'}} >
-                <button className="button">Return</button>
-            </Link>
+            // <Link to={{ pathname: '/projects'}} >
+            //     <button className="button">Return</button>
+            // </Link>
                     
         );
     }

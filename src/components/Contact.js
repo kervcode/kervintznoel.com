@@ -3,6 +3,7 @@
 import React from 'react';
 import "./contact.styles.css";
 import axios from 'axios';
+import { withRouter } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
   
@@ -59,9 +60,9 @@ class Contact extends React.Component {
     this.resetForm();
 
     axios.post('https://kervintznoel-api.herokuapp.com/data', data)
-      .then(res => {
-        
+      .then(res => { 
         console.log(res.data);
+        this.props.history.push('/about')
       })
       .catch(err => console.log(err))
   }
@@ -150,4 +151,4 @@ class Contact extends React.Component {
 }
 
 
-export default Contact
+export default withRouter(Contact)

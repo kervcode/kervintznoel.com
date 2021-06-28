@@ -23,7 +23,7 @@ const Menu = () => {
         <Link to="/projects" onClick= { () => setOpen("close")}>Projects</Link>
         <Link to="/about" onClick= { () => setOpen("close")}>About me</Link>
         {/* <Link to="/blog" onClick= { () => setOpen("close")}>Blog</Link> */}
-        {/* <Link to="/Contact" onClick= { () => setOpen("close")}>Contact</Link> */}
+        <Link to="/Contact" onClick= { () => setOpen("close")}>Contact</Link>
       </div>
       
       <div className="burger" onClick={() => setOpen(open === "close" ? "open" : "close")}>

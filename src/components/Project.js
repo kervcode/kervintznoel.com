@@ -12,7 +12,7 @@ const Projects = ({ name, description, live, git, technologies, dt, id }) => {
                     <h2>{name}</h2>
                 </div>
                 <div className="project_card--box">
-                        <img src={process.env.PUBLIC_URL + "image/" + name +".jpg"} alt="t" className="project_card--image" />
+                        <img src={"image/" + name + ".jpg"} alt="t" className="project_card--image" />
                 </div>
                 <div className="btn">
                     <Link to={`projects/${id}`}>

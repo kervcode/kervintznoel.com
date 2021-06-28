@@ -18,6 +18,8 @@ const Project_lists = () => {
         technologies={dt.technologies}
     /> )
     
+ 
+    
     return (
        <div>
             <h2>Projects</h2>

@@ -58,7 +58,7 @@ class Contact extends React.Component {
 
     this.resetForm();
 
-    axios.post('http://localhost:5000/data', data)
+    axios.post('https://kervintznoel-api.herokuapp.com/data', data)
       .then(res => {
         
         console.log(res.data);

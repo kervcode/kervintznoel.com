@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Project_lists from './components/Project_list';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import detailsPage from './components/detailsPage';
+import ThankYou from './components/ThankYou';
 
 
 
@@ -18,10 +19,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Header} />
           <Route exact path="/projects" component={Project_lists} />
-          <Route exact path="/about" component={About} />
+          <Route path="/about" component={About} />
           <Route exact path="/projects/:id" component={detailsPage} />
-          
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/thankyou" component={ThankYou} />
+          <Route path="/contact" component={Contact} />
         </Switch>   
         <Footer />
       </div>

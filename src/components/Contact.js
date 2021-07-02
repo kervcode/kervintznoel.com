@@ -3,7 +3,7 @@
 import React from 'react';
 import "./contact.styles.css";
 import axios from 'axios';
-import { withRouter } from 'react-router-dom';
+import { useHistory, withRouter } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
   
@@ -15,6 +15,7 @@ class Contact extends React.Component {
     subject:'',
     message: ''
   }
+  
   
 
   onNameChange = (e) => {
@@ -59,12 +60,12 @@ class Contact extends React.Component {
 
     this.resetForm();
 
-    axios.post('https://kervintznoel-api.herokuapp.com/data', data)
-      .then(res => { 
-        console.log(res.data);
-        this.props.history.push('/about')
-      })
-      .catch(err => console.log(err))
+    // https://kervintznoel-api.herokuapp.com/data
+
+    axios.post('http://localhost:5000/data', data)
+    .then(response => console.log(response))
+    .catch(error => console.log(error))
+   
   }
 
   
@@ -151,4 +152,4 @@ class Contact extends React.Component {
 }
 
 
-export default withRouter(Contact)
+export default withRouter(Contact);

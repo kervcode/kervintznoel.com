@@ -62,7 +62,9 @@ class Contact extends React.Component {
 
     // https://kervintznoel-api.herokuapp.com/data
 
-    axios.post('http://localhost:5000/data', data)
+    // http://localhost:5000/data
+
+    axios.post('https://kervintznoel-api.herokuapp.com/data', data)
     .then(response => console.log(response))
     .catch(error => console.log(error))
    

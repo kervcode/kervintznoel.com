@@ -24,12 +24,12 @@
 }
 
 .project_card--image {
-  /* min-width: 400px; */
+  min-width: 400px;
   border-radius: 3px;
   margin: 0 auto;
   margin-bottom: 2rem;
   max-height: 320px;
-  /* min-height: 326px; */
+  min-height: 326px;
 }
 
 .project_card--box:not(:last-child) {

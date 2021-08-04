@@ -7,9 +7,9 @@
         "live_link": "https://kervcode.github.io/react-gallery-app/",
         "github_link": "https://github.com/kervcode/react-gallery-app",
         "image_urls": [
-          "random-large1.png",
-          "random-large2.png",
-          "random-large3.png"
+          "random-large1.jpg",
+          "random-large2.jpg",
+          "random-large3.jpg"
         ]
       },
       {
@@ -20,9 +20,9 @@
         "live_link": "https://randomusergenerator1.netlify.app/",
         "github_link": "https://github.com/kervcode/Random-User-Generator",
         "image_urls": [
-          "random-large1.png",
-          "random-large2.png",
-          "random-large3.png"
+          "random-large1.jpg",
+          "random-large2.jpg",
+          "random-large3.jpg"
         ],
         "features": []
       },
@@ -34,9 +34,9 @@
         "live_link": "https://kervcode.github.io/Interactive-Form/",
         "github_link": "https://github.com/kervcode/Interactive-Form/",
         "image_urls": [
-          "form-large1.png",
-          "form-large2.png",
-          "form-large3.png"
+          "form-large1.jpg",
+          "form-large2.jpg",
+          "form-large3.jpg"
         ]
       },
       {
@@ -47,9 +47,9 @@
         "live_link": "https://randomquotegenerator.netlify.com/",
         "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
         "image_urls": [
-          "random-quote-large1.png",
-          "random-quote-large2.png",
-          "random-quote-large3.png"
+          "random-quote-large1.jpg",
+          "random-quote-large2.jpg",
+          "random-quote-large3.jpg"
         ]
       },
       {
@@ -60,9 +60,9 @@
         "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
         "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
         "image_urls": [
-          "list-pagination-large1.png",
-          "list-pagination-large2.png",
-          "list-pagination-large3.png"
+          "list-pagination-large1.jpg",
+          "list-pagination-large2.jpg",
+          "list-pagination-large3.jpg"
         ]
       },
       {
@@ -73,10 +73,10 @@
         "live_link": "https://phrasehunt.netlify.com/",
         "github_link": "https://github.com/kervcode/phrase-hunter",
         "image_urls": [
-          "phrase-hunter-large1.png",
-          "phrase-hunter-large2.png",
-          "phrase-hunter-large3.png",
-          "phrase-hunter-large4.png"
+          "phrase-hunter-large1.jpg",
+          "phrase-hunter-large2.jpg",
+          "phrase-hunter-large3.jpg",
+          "phrase-hunter-large4.jpg"
         ]
       }
       

@@ -1,106 +1,52 @@
-.contact-form {
-  background: rgba(251, 252, 250, 0.02);
+.container {
+  padding: 40px;
+  font-weight: 300;
+}
+
+.contact-form {  
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 80%;
   margin: 0 auto;
-  padding: 48px;
+ 
   color: white;
   line-height: 1.7;
+  
 }
 
-.contact-heading {
-  font-size: 48px;
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
-.form-group {
-  width: 600px;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+.contact-item {
+  background-color: #aa9996;
+  width: 350px;
+  margin: 15px;
+  font-size: 1.5em;
+  align-items: center;
+  padding: 30px 10px;
 
-.form-group p {
-  margin-top: 10px;
-  text-align: left;
-  color: #906860;
-  font-weight:600;
-}
-
-
-.form_input {
-  flex: 0.7;
-  align-items: flex-end;
-  padding-left: 20px;
-  outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-  background-color: #fff;
-  font-size: 16px;
-  font-weight: 800;
-  width: 100%;
-  margin-top: 10px;
-}
-
-textarea:focus {
-  height: 100px;
-}
-
-.text-muted {
-  display: flex;
-  flex: 0.3;
-  align-items: flex-start;
-  /* margin-right: 40px; */
-}
-
-#submit {
-  margin: 0 auto;
-  width: 150px;
-  font-size: 18px;
-  cursor: pointer;
-  padding: 5px 10px;
-}
-
-#submit:hover {
-  background-color: transparent;
-  border: 2px solid white;
-  color: #fff;
-  transition: 0.6s;
 }
 
 
-.validation {
-  display: "";
+
+
+.contact-item a {
+  color: #000;
 }
+
+
+
+
 
 @media only screen and (min-width: 280px) and (max-width: 812px) {
   body {
     max-width: 100vw;
   }
 
-  .contact-heading {
-    font-size: 24px;
-  }
-  .contact-form {
-    padding: 20px;
-    font-size: 24px;
-  }
-
-  .form-group {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form-control {
-    max-width: 100vw;
-  }
-
-  input {
-    display: flex;
-    max-width: 100%;
-    flex: 1;
-  }
+  
 }

@@ -42,7 +42,7 @@
       {
         "id": "3",
         "project_name": "Random Quote Generator",
-        "description": "In this Random Quote Generator, the user clicks a button and receives a random quote and background-color changes.",
+        "description": "Created an app that displays random famous quotes each time a button is clicked. I used JavaScript syntax such as variables, loops, conditionals, and objects literal to build the array of quote objects to store the quotes. I wrote functions that selects the random quotes from the array and prints them to the screen.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://randomquotegenerator.netlify.com/",
         "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",

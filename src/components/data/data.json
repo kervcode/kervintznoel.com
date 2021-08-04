@@ -68,7 +68,7 @@
       {
         "id": "5",
         "project_name": "Phrase Hunter",
-        "description": "Created a browser-based, word guessing game called "Phrase Hunter." I used JavaScript and Object-Oriented Programming to select a random, hidden phrase,  which a player tries to guess, by clicking letters on an onscreen keyboard.",
+        "description": "Created a browser-based, word guessing game called 'Phrase Hunter.' I used JavaScript and Object-Oriented Programming to select a random, hidden phrase,  which a player tries to guess, by clicking letters on an onscreen keyboard.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://phrasehunt.netlify.com/",
         "github_link": "https://github.com/kervcode/phrase-hunter",

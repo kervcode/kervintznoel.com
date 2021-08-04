@@ -1,7 +1,7 @@
-import react from 'react';
+
 import "./project.styles.css";
-import { Route, Link } from 'react-router-dom';
-import detailsPage from './detailsPage';
+import {  Link } from 'react-router-dom';
+// import detailsPage from './detailsPage';
 
 
 const Projects = ({ name, description, live, git, technologies, dt, id }) => {

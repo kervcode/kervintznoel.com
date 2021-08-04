@@ -1,10 +1,9 @@
 import React from 'react';
 import './about.style.css'
-import profile_picture from '../images/profile_picture.png';
-import * as Icons from '@material-ui/icons';
-import {FaJs, FaReact, FaNodeJs} from 'react-icons/fa';
+// import * as Icons from '@material-ui/icons';
+
 import './hero.style.css';
-import { Link} from 'react-router-dom';
+// import { Link} from 'react-router-dom';
 
 function About() {
     return (

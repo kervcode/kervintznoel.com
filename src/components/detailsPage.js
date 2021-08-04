@@ -1,6 +1,6 @@
-import { Description } from '@material-ui/icons';
+// import { Description } from '@material-ui/icons';
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import data from './data/data.json';
 import './detailPage.css'
 

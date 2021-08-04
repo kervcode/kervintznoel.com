@@ -1,5 +1,3 @@
-import react from 'react';
-import Menu from './Menu';
 import Hero from './Hero';
 import './header.style.css'
 

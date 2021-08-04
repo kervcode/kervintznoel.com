@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import './menu.styles.css';
 import { Link } from 'react-router-dom';
-import { motion } from "framer-motion"
 
 const Menu = () => {
   
   const [open, setOpen] = useState("close");
-  const [ visible, setVisible] = useState("open");
+  // const [ visible, setVisible] = useState("open");
   
 
   return (

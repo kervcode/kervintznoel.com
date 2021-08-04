@@ -1,4 +1,3 @@
-import react from 'react';
 import data from './data/data.json';
 import Projects from './Project';
 import "./project.styles.css";
@@ -21,8 +20,8 @@ const Project_lists = () => {
  
     
     return (
-       <div>
-            <h2>Projects</h2>
+       <div className="container">
+            <h1>Projects</h1>
                 <div className="projectContainer">{ projects }</div>
        </div>
     )

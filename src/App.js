@@ -1,7 +1,7 @@
 import './App.css';
 import Menu from "./components/Menu";
 import About from './components/About';
-import Contact from './components/Contact';
+import Contact2 from './components/Contact2';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Project_lists from './components/Project_list';
@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route exact path="/projects/:id" component={detailsPage} />
           <Route path="/thankyou" component={ThankYou} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/contact" component={ () => <Contact2 icon={`far fa-envelope`}/>} />
         </Switch>   
         <Footer />
       </div>

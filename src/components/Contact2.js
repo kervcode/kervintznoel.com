@@ -14,7 +14,7 @@ class Contact2 extends Component {
                     </div>
 
                     <div className="contact-item email">
-                        <a href=" mailto: kervcodes@gmail.com" alt="">kervcodes@gmail.com</a>
+                        <a href=" mailto: kervintznoel@outlook.com" alt="">kervintznoel@outlook.com</a>
                     </div>  
                     <div className="contact-item">
                         <a href="https://www.linkedin.com/in/kervintznoel/" target="_blank" rel="noopener noreferrer" alt="">LinkedIn</a>

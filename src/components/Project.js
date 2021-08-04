@@ -1,7 +1,7 @@
 
 import "./project.styles.css";
 import {  Link } from 'react-router-dom';
-// import detailsPage from './detailsPage';
+
 
 
 const Projects = ({ name, description, live, git, technologies, dt, id }) => {

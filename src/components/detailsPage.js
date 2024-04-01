@@ -3,32 +3,35 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import data from './data/data.json';
 import './detailPage.css'
+import { useParams, NavLink } from 'react-router-dom';
 
 
-class DetailsPage extends React.Component {
-    render() {
-        const id = this.props.match.params.id;
-        const technologies = data.[id].technologies;
-        const images = data.[id].image_urls;
+const DetailsPage = () => {
+        const {id} = useParams();
+        console.log(id)
+        console.log(data)
+        const technologies = data[id].technologies;
+        const images = data[id].image_urls;
 
 
         console.log(id)
         console.log(images)
         console.log(technologies)
-    
-        return (
-            <div >
+    return (
+        <>
+        
+        <div >
                 <h1>Project Description</h1>
                 <div className="container">
                     <h2 id="project_name">
-                        {data.[id].project_name}
+                        {data[id].project_name}
                     </h2>
                 
 
                     <div className="description"> 
                         
                         <div className="project_title">
-                            {data.[id].description}
+                            {data[id].description}
                         </div>
 
                         <div className="project_technologies">
@@ -59,12 +62,12 @@ class DetailsPage extends React.Component {
                 </div>
             </div>
             
-            // <Link to={{ pathname: '/projects'}} >
-            //     <button className="button">Return</button>
-            // </Link>
-                    
-        );
-    }
-  }
+            <NavLink to={{ pathname: '/projects'}} >
+              <button className="button">Return</button>
+            </NavLink>
+
+    </>
+    )
+  };
 
   export default DetailsPage;

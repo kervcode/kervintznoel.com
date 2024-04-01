@@ -3,7 +3,7 @@ import Projects from './Project';
 import "./project.styles.css";
 
 
-const Project_lists = () => {
+const ProjectList = () => {
   
 
     let projects = data.map( (dt) => 
@@ -28,4 +28,4 @@ const Project_lists = () => {
     
 }
 
-export default Project_lists;
+export default ProjectList;

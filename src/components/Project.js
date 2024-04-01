@@ -1,10 +1,10 @@
 
 import "./project.styles.css";
-import {  Link } from 'react-router-dom';
+import {  Link, useParams } from 'react-router-dom';
 
+// <Link to={{ pathname: "/your-path", hash: "#" }} >Link Text</Link>
 
-
-const Projects = ({ name, description, live, git, technologies, dt, id }) => {
+const Projects = ({ name, live, git, id }) => {
     
     return (
             <div className="project_card">
@@ -15,16 +15,15 @@ const Projects = ({ name, description, live, git, technologies, dt, id }) => {
                         <img src={"image/" + name + ".jpg"} alt="t" className="project_card--image" />
                 </div>
                 <div className="btn">
-                    <Link to={`projects/${id}`}>
+                    <Link to={`${id}`}>
                         <button className="button">Details</button>
                     </Link>
-                    <Link to={{pathname: live }} target="_blank">
+                    <Link to={`${live}`} target="_blank">
                         <button className="button">Live Project</button>
                     </Link>
-                    <Link to={{pathname: git}} target="_blank">
+                    <Link to={`${git}`} target="_blank">
                         <button className="button">GitHub link</button>
                     </Link>
-                    
                 </div>
             </div>
     )
